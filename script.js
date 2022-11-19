@@ -16,7 +16,7 @@ function Submit() {
   Img1.setAttribute("class", "width");
   Img1.setAttribute("src", "bad.png");
   const listitem = document.createElement("li");
-  listitem.className = "list-group-item w-25";
+  listitem.className = "list-group-item";
   listitem.innerHTML = todoitem;
   listitem.appendChild(Img1); 
   listitem.appendChild(Img); 
