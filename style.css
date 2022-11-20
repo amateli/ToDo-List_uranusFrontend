@@ -7,6 +7,6 @@
   cursor: pointer;
 }
 li{
-  width:40em;
+  width:minmax(10em, 40em);
   overflow-y: auto;
 }
